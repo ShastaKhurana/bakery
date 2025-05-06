@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Mithai Mandir Bakery</title>
+    <meta name="description"
+        content="Get in touch with Mithai Mandir Bakery for inquiries, custom orders, or feedback.">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                Mithai Mandir
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-primary" href="order.html">Order Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-light py-5 mb-5">
+        <div class="container">
+            <h1 class="text-center display-4">Contact Us</h1>
+            <p class="lead text-center">We'd love to hear from you! Get in touch with any questions, orders, or
+                feedback.</p>
+        </div>
+    </section>
+
+    <!-- Contact Details & Form -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Contact Info -->
+                <div class="col-lg-5">
+                    <h2 class="mb-4">Get In Touch</h2>
+
+                    <div class="d-flex mb-4">
+                        <div class="flex-shrink-0 me-3">
+                            <i class="fas fa-map-marker-alt text-primary fa-2x"></i>
+                        </div>
+                        <div>
+                            <h5 class="mt-0">Visit Us</h5>
+                            <p>123 MG Road<br>Delhi, 110001</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mb-4">
+                        <div class="flex-shrink-0 me-3">
+                            <i class="fas fa-phone-alt text-primary fa-2x"></i>
+                        </div>
+                        <div>
+                            <h5 class="mt-0">Call Us</h5>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mb-4">
+                        <div class="flex-shrink-0 me-3">
+                            <i class="fas fa-envelope text-primary fa-2x"></i>
+                        </div>
+                        <div>
+                            <h5 class="mt-0">Email Us</h5>
+                            <p>hello@mithaimandir.com</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mb-4">
+                        <div class="flex-shrink-0 me-3">
+                            <i class="fas fa-clock text-primary fa-2x"></i>
+                        </div>
+                        <div>
+                            <h5 class="mt-0">Hours</h5>
+                            <p>Monday - Friday: 8:00 AM - 9:00 PM<br>
+                                Saturday: 8:00 AM - 9:00 PM<br>
+                                Sunday: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-5">
+                        <h5 class="mb-3">Follow Us</h5>
+                        <div class="d-flex gap-3">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f fa-2x text-primary"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram fa-2x text-primary"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter fa-2x text-primary"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-7">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4 p-md-5">
+                            <h3 class="mb-4">Send Us a Message</h3>
+
+                            <form id="contactForm">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="name" class="form-label">Your Name</label>
+                                        <input type="text" class="form-control" id="name" required>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email Address</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="subject" class="form-label">Subject</label>
+                                        <input type="text" class="form-control" id="subject">
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea class="form-control" id="message" rows="5" required></textarea>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary">Send Message</button>
+                                    </div>
+                                </div>
+
+                                <div id="form-success" class="alert alert-success mt-4 d-none">
+                                    Your message has been sent! We'll get back to you soon.
+                                </div>
+
+                                <div id="form-error" class="alert alert-danger mt-4 d-none">
+                                    There was a problem sending your message. Please try again.
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Find Us</h2>
+            <div class="ratio ratio-21x9" style="max-height: 450px;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.8023572544797!2d77.2185031!3d28.632735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi%2C%20India!5e0!3m2!1sen!2sus!4v1620051863503!5m2!1sen!2sus"
+                    class="border rounded shadow" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <!-- FAQ Item 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                                    Do you offer delivery?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse1" class="accordion-collapse collapse show"
+                                aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, we offer local delivery within Delhi NCR. Delivery fee is ₹50 for standard
+                                    delivery and free for orders over ₹1000. We also partner with Swiggy and Zomato for
+                                    quick deliveries.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                                    How far in advance should I order a custom cake?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    For standard custom cakes, we recommend placing your order at least 48 hours in
+                                    advance. For wedding cakes or detailed custom designs, please contact us at least 2
+                                    weeks before your event. For festival seasons like Diwali, we suggest ordering at
+                                    least a week in advance due to high demand.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                                    Do you cater for events?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes! We offer catering services for both corporate and private events. We can
+                                    provide breakfast pastries, dessert platters, celebration cakes, and traditional
+                                    Indian sweet boxes for weddings and festivities. Contact us for a custom quote.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faqHeading4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                    Do you accommodate dietary restrictions?
+                                </button>
+                            </h2>
+                            <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We offer a selection of eggless, sugar-free, and vegan options. We also have special
+                                    Jain-friendly items during festivals. Please inform us of any allergies or dietary
+                                    restrictions when placing your order, and we'll do our best to accommodate your
+                                    needs.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Column 1: Logo & About -->
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="h5 mb-3">Mithai Mandir</h3>
+                    <p class="small">Handcrafted baked goods and Indian sweets made with love since 1998. Using only the
+                        finest ingredients for our community.</p>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="h5 mb-3">Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html"
+                                class="text-decoration-none text-white-50 hover-white">Home</a></li>
+                        <li class="mb-2"><a href="about.html"
+                                class="text-decoration-none text-white-50 hover-white">About Us</a></li>
+                        <li class="mb-2"><a href="products.html"
+                                class="text-decoration-none text-white-50 hover-white">Our Products</a></li>
+                        <li class="mb-2"><a href="contact.html"
+                                class="text-decoration-none text-white-50 hover-white">Contact</a></li>
+                        <li><a href="order.html" class="text-decoration-none text-white-50 hover-white">Order Online</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Contact -->
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="h5 mb-3">Contact Us</h4>
+                    <address class="small text-white-50">
+                        <p>123 MG Road</p>
+                        <p>Delhi, 110001</p>
+                        <p class="mt-2">Tel: +91 98765 43210</p>
+                        <p>Email: hello@mithaimandir.com</p>
+                    </address>
+                </div>
+
+                <!-- Column 4: Hours -->
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="h5 mb-3">Opening Hours</h4>
+                    <div class="small text-white-50">
+                        <p>Monday - Friday: 8:00 AM - 9:00 PM</p>
+                        <p>Saturday: 8:00 AM - 9:00 PM</p>
+                        <p>Sunday: 9:00 AM - 6:00 PM</p>
+                    </div>
+                    <div class="mt-3 d-flex gap-3">
+                        <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-top border-secondary mt-4 pt-4 text-center text-white-50 small">
+                <p>© <span id="current-year"></span> Mithai Mandir Bakery. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
